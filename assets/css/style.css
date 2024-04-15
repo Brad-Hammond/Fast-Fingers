@@ -19,4 +19,6 @@ body {
 }
 .wrapper {
   background: #669bbc;
+  width: 75%;
+  border-radius: 10px;
 }
