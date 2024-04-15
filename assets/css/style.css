@@ -32,11 +32,25 @@ body {
 /* Count-down timer */
 .count-down {
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   font-size: 4rem;
   color: #669bbc;
 }
-/* Quote Styles */
-.display-q {
-  padding-bottom: 10px;
+/* Text Input */
+.text-input {
+  font-size: 17.5px;
+  letter-spacing: 1px;
+  text-align: justify;
+  word-break: break-all;
+}
+/* Results */
+.score .results {
+  display: flex;
+  padding-left: 50px;
+}
+.container .score {
+  display: flex;
+}
+.results li {
+  list-style: none;
 }
