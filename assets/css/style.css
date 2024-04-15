@@ -57,6 +57,7 @@ body {
   border-radius: 5px;
   outline: none;
   resize: none;
+  background-color: #fffcf2;
 }
 .text-area textarea::-webkit-scrollbar {
   width: 0;
