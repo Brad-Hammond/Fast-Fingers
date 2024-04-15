@@ -50,8 +50,6 @@ body {
   padding: 10px 10px;
 }
 /* Results */
-.score {
-}
 .score .results {
   width: 100%;
   display: flex;
