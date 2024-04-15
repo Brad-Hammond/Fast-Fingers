@@ -15,10 +15,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #fdf0d5;
+  background: #252422;
+  color: black;
 }
 .container {
-  background: #669bbc;
+  background: #fffcf2;
   padding: 30px;
   width: 75%;
   max-width: 90%;
@@ -26,7 +27,7 @@ body {
 }
 .container .info-box {
   padding: 10px 18px 0;
-  border: 1px solid #ffff;
+  border: 1px solid #252422;
   border-radius: 10px;
 }
 /* Count-down timer */
@@ -34,7 +35,7 @@ body {
   position: absolute;
   top: 4rem;
   font-size: 4rem;
-  color: #669bbc;
+  color: #fffcf2;
 }
 /* Text Input */
 .text-input {
@@ -42,11 +43,14 @@ body {
   letter-spacing: 1px;
   text-align: justify;
   word-break: break-all;
-  border-bottom: 1px solid #ffff;
+  border-bottom: 1px solid #252422;
+  padding-bottom: 5px;
+}
+.info-box .score {
+  padding: 10px 10px;
 }
 /* Results */
 .score {
-  padding-top: 5px;
 }
 .score .results {
   width: 100%;
@@ -67,4 +71,10 @@ body {
   border: none;
   border-radius: 10px;
   width: 100px;
+  color: #fffcf2;
+  background-color: #252422;
+  transition: transform 0.2s ease;
+}
+.score button:active {
+  transform: scale(0.95);
 }
