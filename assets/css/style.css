@@ -19,6 +19,24 @@ body {
 }
 .wrapper {
   background: #669bbc;
+  padding: 30px;
   width: 75%;
+  max-width: 90%;
   border-radius: 10px;
+}
+.wrapper .info-box {
+  padding: 10px 18px 0;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+}
+/* Count-down timer */
+.count-down {
+  position: absolute;
+  top: 2rem;
+  font-size: 4rem;
+  color: #669bbc;
+}
+/* Quote Styles */
+.display-q {
+  padding-bottom: 10px;
 }
