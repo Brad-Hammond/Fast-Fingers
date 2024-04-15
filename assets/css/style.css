@@ -1,2 +1,14 @@
 /* Google Fonts Import */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* asterisk styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boorder-box;
+}
+
+/* general styling */
+body {
+  font-family: "Space Mono", monospace;
+}
