@@ -18,6 +18,8 @@ const paragraphs = [
 ];
 // Query Selector
 let displayText = document.querySelector(".display-text");
+let quoteInput = document.getElementById("quoteInput");
+
 // Function for random quote
 function randomText() {
   let randQuote = Math.floor(Math.random() * paragraphs.length);
@@ -28,3 +30,18 @@ function randomText() {
 }
 
 randomText();
+
+quoteInput.addEventListener("input", () => {
+  const arrayQuote = displayText.querySelectorAll("span");
+  const arrayValue = quoteInput.value.split("");
+  arrayQuote.forEach((characterSpan, index) => {
+    const character = arrayValue[index];
+    if (character === characterSpan.innerText) {
+      characterSpan.classList.add("correct");
+      characterSpan.classList.remove("incorrect");
+    } else {
+      characterSpan.classList.remove("correct");
+      characterSpan.classList.add("incorrect");
+    }
+  });
+});
