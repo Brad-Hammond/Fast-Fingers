@@ -1,5 +1,5 @@
 // Random Paragraph Quotes
-let paragraphs = [
+const paragraphs = [
   "Along the rugged coastline, where the waves crashed against the cliffs with a relentless fury, a lighthouse stood sentinel, its beacon cutting through the darkness like a guiding star. Against the backdrop of the stormy sea, it stood as a symbol of hope, offering solace to ships lost in the tempestuous waters.",
   "As the sun dipped below the horizon, casting hues of orange and pink across the sky, the weary traveler trudged along the dusty path, feeling the weight of the backpack on their shoulders. In the distance, the silhouette of a quaint village emerged, promising warmth and shelter for the night.",
   "Amidst the bustling city streets, where the rhythm of life pulsated with an energy all its own, a solitary figure sat on a bench, lost in thought. The cacophony of honking horns and distant chatter faded into the background as memories of yesteryears flooded their mind, painting a vivid tapestry of nostalgia.",
@@ -20,7 +20,8 @@ let paragraphs = [
 let displayText = document.querySelector(".display-text");
 // Function for random quote
 function randomText() {
-  console.log(paragraphs[0]);
+  let randQuote = Math.floor(Math.random() * paragraphs.length);
+  console.log(paragraphs[randQuote]);
 }
 
 randomText();
