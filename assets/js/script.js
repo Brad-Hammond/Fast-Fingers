@@ -1,3 +1,4 @@
+// Random Paragraph Quotes
 let paragraphs = [
   "Along the rugged coastline, where the waves crashed against the cliffs with a relentless fury, a lighthouse stood sentinel, its beacon cutting through the darkness like a guiding star. Against the backdrop of the stormy sea, it stood as a symbol of hope, offering solace to ships lost in the tempestuous waters.",
   "As the sun dipped below the horizon, casting hues of orange and pink across the sky, the weary traveler trudged along the dusty path, feeling the weight of the backpack on their shoulders. In the distance, the silhouette of a quaint village emerged, promising warmth and shelter for the night.",
@@ -15,9 +16,9 @@ let paragraphs = [
   "Along the rugged mountain trail, where jagged peaks pierced the sky and alpine meadows bloomed in a riot of colors, a group of intrepid hikers embarked on a journey of discovery and adventure. With each step, they forged a bond as strong as the granite cliffs that surrounded them, conquering obstacles and scaling heights they never thought possible.",
   "In the bustling metropolis, where skyscrapers towered like giants of glass and steel, a chef worked tirelessly in a bustling kitchen, orchestrating a symphony of flavors and aromas that tantalized the senses. With pots bubbling and pans sizzling, they transformed humble ingredients into culinary masterpieces, each dish a testament to their passion and creativity.",
 ];
-
+// Query Selector
 let displayText = document.querySelector(".display-text");
-
+// Function for random quote
 function randomText() {
   console.log(paragraphs[0]);
 }
