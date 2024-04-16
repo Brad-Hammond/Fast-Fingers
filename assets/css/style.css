@@ -18,6 +18,14 @@ body {
   background: #252422;
   color: black;
 }
+#display-flex {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   background: #fffcf2;
   padding: 30px;
@@ -38,13 +46,15 @@ body {
   color: #fffcf2;
 }
 /* Display Text */
-.display.text {
+.display-text {
   font-size: 17.5px;
   letter-spacing: 1px;
   text-align: justify;
   word-break: break-all;
   border-bottom: 1px solid #252422;
   padding-bottom: 5px;
+  color: #fffcf2;
+  padding-bottom: 50px;
 }
 .info-box .score {
   padding: 10px 10px;
