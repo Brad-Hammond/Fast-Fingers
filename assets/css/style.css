@@ -99,3 +99,10 @@ body {
 .score button:active {
   transform: scale(0.95);
 }
+/* Correct / Incorrect quote colors */
+.correct {
+  color: #de1a24;
+}
+.incorrect {
+  color: #3f8f29;
+}
