@@ -53,6 +53,21 @@ quoteInput.addEventListener("input", () => {
   });
 });
 // Function for Count Down Timer
-function startTimer() {}
+function startTimer() {
+  startTime = Date.now();
+  timerInterval = setInterval(updateTimer, 1000);
+}
+function updateTimer() {
+  const currentTime = Date.now();
+  const elapsedTime = currentTime - startTime;
+  const seconds = Math.floor(elapsedTime / 1000);
+  countDownTimer.textContent = seconds;
+}
+
+quoteInput.addEventListener("input", () => {
+  if (!startTime) {
+    startTimer();
+  }
+});
 
 randomText();
