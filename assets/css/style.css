@@ -101,8 +101,8 @@ body {
 }
 /* Correct / Incorrect quote colors */
 .correct {
-  color: #de1a24;
+  color: #3f8f29;
 }
 .incorrect {
-  color: #3f8f29;
+  color: #de1a24;
 }
