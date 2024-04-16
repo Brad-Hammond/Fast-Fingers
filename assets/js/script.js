@@ -21,7 +21,10 @@ let displayText = document.querySelector(".display-text");
 // Function for random quote
 function randomText() {
   let randQuote = Math.floor(Math.random() * paragraphs.length);
-  console.log(paragraphs[randQuote]);
+  paragraphs[randQuote].split("").forEach((span) => {
+    let spanTag = `<span>${span}</span>`;
+    displayText.innerHTML += spanTag;
+  });
 }
 
 randomText();
