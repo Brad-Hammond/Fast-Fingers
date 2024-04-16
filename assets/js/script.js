@@ -16,10 +16,12 @@ const paragraphs = [
   "Along the rugged mountain trail, where jagged peaks pierced the sky and alpine meadows bloomed in a riot of colors, a group of intrepid hikers embarked on a journey of discovery and adventure. With each step, they forged a bond as strong as the granite cliffs that surrounded them, conquering obstacles and scaling heights they never thought possible.",
   "In the bustling metropolis, where skyscrapers towered like giants of glass and steel, a chef worked tirelessly in a bustling kitchen, orchestrating a symphony of flavors and aromas that tantalized the senses. With pots bubbling and pans sizzling, they transformed humble ingredients into culinary masterpieces, each dish a testament to their passion and creativity.",
 ];
-// Query/ Element Selector
+// Variable Selectors
 let displayText = document.querySelector(".display-text");
 let quoteInput = document.getElementById("quoteInput");
 let countDownTimer = document.getElementById("countDown");
+let startTime;
+let timerInterval;
 
 // Function for random quote
 function randomText() {
@@ -28,6 +30,7 @@ function randomText() {
     let spanTag = `<span>${span}</span>`;
     displayText.innerHTML += spanTag;
   });
+  timerCountDown();
 }
 
 // Event lister to set color of Quote
@@ -49,9 +52,7 @@ quoteInput.addEventListener("input", () => {
     }
   });
 });
-
-function timerCountDown() {
-  countDownTimer.innerText = 0;
-}
+// Function for Count Down Timer
+function startTimer() {}
 
 randomText();
