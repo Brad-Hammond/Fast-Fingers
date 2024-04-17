@@ -20,8 +20,11 @@ const paragraphs = [
 let displayText = document.querySelector(".display-text");
 let quoteInput = document.getElementById("quoteInput");
 let countDownTimer = document.getElementById("countDown");
+mistakeCount = document.querySelector(".mistakes span");
 let startTime;
 let timerInterval;
+// Sets mistake count to 0
+let mistakeCounter = 0;
 
 // Function for random quote
 function randomText() {
@@ -31,12 +34,15 @@ function randomText() {
     let spanTag = `<span>${span}</span>`;
     displayText.innerHTML += spanTag;
   });
-  startTimer();
+  // startTimer();
 }
 
 // Event lister to set color of Quote
 
 quoteInput.addEventListener("input", () => {
+  if (!startTime) {
+    startTimer();
+  }
   const arrayQuote = displayText.querySelectorAll("span");
   const arrayValue = quoteInput.value.split("");
   let correct = true;
@@ -54,8 +60,13 @@ quoteInput.addEventListener("input", () => {
       correct = false;
     }
   });
+  // Increase mistake counter // not including backspaces
+  if (event.inputType !== "deleteContentBackward" && !correct) {
+    mistakeCounter++;
+    mistakeCount.textContent = mistakeCounter;
+  }
   // Stops timer once complete
-  if (correct) {
+  if (correct && arrayQuote.length === arrayValue.length) {
     clearInterval(timerInterval);
   }
 });
