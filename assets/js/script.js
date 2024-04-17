@@ -30,6 +30,10 @@ let mistakeCounter = 0;
 let characterCount = 0;
 let wordCount = 0;
 
+// Function for setting focus on text area
+function setFocusOnTextArea() {
+  quoteInput.focus();
+}
 // Function for random quote
 function randomText() {
   displayText.innerHTML = "";
@@ -38,6 +42,7 @@ function randomText() {
     let spanTag = `<span>${span}</span>`;
     displayText.innerHTML += spanTag;
   });
+  setFocusOnTextArea();
 }
 
 // Event lister to set color of Quote
