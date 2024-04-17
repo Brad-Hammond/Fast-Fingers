@@ -23,6 +23,7 @@ let countDownTimer = document.getElementById("countDown");
 let mistakeCount = document.querySelector(".mistakes span");
 let wpmDisplay = document.querySelector(".wpm span");
 let cpmDisplay = document.querySelector(".cpm span");
+let tryAgainButton = document.querySelector("button");
 let startTime;
 let timerInterval;
 let mistakeCounter = 0;
@@ -80,6 +81,11 @@ quoteInput.addEventListener("input", () => {
     .filter((word) => word !== "").length;
   calculateWPM();
   calculateCPM();
+});
+// Try again button event listner
+tryAgainButton.addEventListener("click", () => {
+  resetValues();
+  randomText();
 });
 // Function for Count Down Timer
 function startTimer() {
