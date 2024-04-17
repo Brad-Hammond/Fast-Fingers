@@ -5,9 +5,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: boorder-box;
+  box-sizing: border-box;
 }
 
+/* Styling for index file */
+#landing-page {
+  display: flex;
+  flex-direction: column;
+  color: #fffcf2;
+  font-size: 35px;
+}
+/* Styling for typing-test file */
 /* general styling */
 body {
   font-family: "Space Mono", monospace;
