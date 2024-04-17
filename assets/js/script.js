@@ -115,4 +115,16 @@ quoteInput.addEventListener("input", () => {
   }
 });
 
+// Function to reset values for try again button
+function resetValues() {
+  clearInterval(timerInterval);
+  mistakeCounter = 0;
+  characterCount = 0;
+  wordCount = 0;
+  mistakeCount.textContent = 0;
+  wpmDisplay.textContent = 0;
+  cpmDisplay.textContent = 0;
+  countDownTimer.textContent = 0;
+  startTime = null;
+}
 randomText();
