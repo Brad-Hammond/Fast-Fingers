@@ -23,8 +23,9 @@ let countDownTimer = document.getElementById("countDown");
 mistakeCount = document.querySelector(".mistakes span");
 let startTime;
 let timerInterval;
-// Sets mistake count to 0
 let mistakeCounter = 0;
+let characterCount = 0;
+let wordCount = 0;
 
 // Function for random quote
 function randomText() {
