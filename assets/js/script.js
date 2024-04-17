@@ -30,7 +30,6 @@ function randomText() {
     let spanTag = `<span>${span}</span>`;
     displayText.innerHTML += spanTag;
   });
-  timerCountDown();
 }
 
 // Event lister to set color of Quote
