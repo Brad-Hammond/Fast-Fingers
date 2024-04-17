@@ -126,5 +126,6 @@ function resetValues() {
   cpmDisplay.textContent = 0;
   countDownTimer.textContent = 0;
   startTime = null;
+  quoteInput.value = "";
 }
 randomText();
