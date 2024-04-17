@@ -25,11 +25,13 @@ let timerInterval;
 
 // Function for random quote
 function randomText() {
+  displayText.innerHTML = "";
   let randQuote = Math.floor(Math.random() * paragraphs.length);
   paragraphs[randQuote].split("").forEach((span) => {
     let spanTag = `<span>${span}</span>`;
     displayText.innerHTML += spanTag;
   });
+  startTimer();
 }
 
 // Event lister to set color of Quote
@@ -37,6 +39,7 @@ function randomText() {
 quoteInput.addEventListener("input", () => {
   const arrayQuote = displayText.querySelectorAll("span");
   const arrayValue = quoteInput.value.split("");
+  let correct = true;
   arrayQuote.forEach((characterSpan, index) => {
     const character = arrayValue[index];
     if (character == null) {
@@ -48,8 +51,13 @@ quoteInput.addEventListener("input", () => {
     } else {
       characterSpan.classList.remove("correct");
       characterSpan.classList.add("incorrect");
+      correct = false;
     }
   });
+  // Stops timer once complete
+  if (correct) {
+    clearInterval(timerInterval);
+  }
 });
 // Function for Count Down Timer
 function startTimer() {
