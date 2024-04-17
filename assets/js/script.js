@@ -20,7 +20,9 @@ const paragraphs = [
 let displayText = document.querySelector(".display-text");
 let quoteInput = document.getElementById("quoteInput");
 let countDownTimer = document.getElementById("countDown");
-mistakeCount = document.querySelector(".mistakes span");
+let mistakeCount = document.querySelector(".mistakes span");
+let wpmDisplay = document.querySelector(".wpm span");
+let cpmDisplay = document.querySelector(".cpm span");
 let startTime;
 let timerInterval;
 let mistakeCounter = 0;
@@ -38,7 +40,6 @@ function randomText() {
 }
 
 // Event lister to set color of Quote
-
 quoteInput.addEventListener("input", () => {
   if (!startTime) {
     startTimer();
@@ -68,7 +69,15 @@ quoteInput.addEventListener("input", () => {
   // Stops timer once complete
   if (correct && arrayQuote.length === arrayValue.length) {
     clearInterval(timerInterval);
+    calculateWPM();
   }
+  // CPM Count
+  characterCount = quoteInput.value.length;
+  // WPM Count
+  wordCount = quoteInput.value
+    .split(/\s+/)
+    .filter((word) => word !== "").length;
+  calculateWPM();
 });
 // Function for Count Down Timer
 function startTimer() {
@@ -80,6 +89,12 @@ function updateTimer() {
   const elapsedTime = currentTime - startTime;
   const seconds = Math.floor(elapsedTime / 1000);
   countDownTimer.textContent = seconds;
+}
+// Calculate WPM
+function calculateWPM() {
+  const elapsedTimeInMinutes = (Date.now() - startTime) / (1000 * 60);
+  const wpm = Math.round(wordCount / elapsedTimeInMinutes);
+  wpmDisplay.textContent = wpm;
 }
 
 quoteInput.addEventListener("input", () => {
