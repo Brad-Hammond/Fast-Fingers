@@ -70,6 +70,7 @@ quoteInput.addEventListener("input", () => {
   if (correct && arrayQuote.length === arrayValue.length) {
     clearInterval(timerInterval);
     calculateWPM();
+    calculateCPM();
   }
   // CPM Count
   characterCount = quoteInput.value.length;
@@ -78,6 +79,7 @@ quoteInput.addEventListener("input", () => {
     .split(/\s+/)
     .filter((word) => word !== "").length;
   calculateWPM();
+  calculateCPM();
 });
 // Function for Count Down Timer
 function startTimer() {
@@ -96,7 +98,11 @@ function calculateWPM() {
   const wpm = Math.round(wordCount / elapsedTimeInMinutes);
   wpmDisplay.textContent = wpm;
 }
-
+function calculateCPM() {
+  const elapsedTimeInMinutes = (Date.now() - startTime) / (1000 * 60);
+  const cpm = Math.round(characterCount / elapsedTimeInMinutes);
+  cpmDisplay.textContent = cpm;
+}
 quoteInput.addEventListener("input", () => {
   if (!startTime) {
     startTimer();
