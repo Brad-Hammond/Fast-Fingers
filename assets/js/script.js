@@ -67,6 +67,7 @@ quoteInput.addEventListener("input", () => {
       correct = false;
     }
   });
+
   // Increase mistake counter // not including backspaces
   if (event.inputType !== "deleteContentBackward" && !correct) {
     mistakeCounter++;
@@ -75,8 +76,7 @@ quoteInput.addEventListener("input", () => {
   // Stops timer once complete
   if (correct && arrayQuote.length === arrayValue.length) {
     clearInterval(timerInterval);
-    calculateWPM();
-    calculateCPM();
+    displayModal();
   }
   // CPM Count
   characterCount = quoteInput.value.length;
@@ -108,6 +108,7 @@ function calculateWPM() {
   const elapsedTimeInMinutes = (Date.now() - startTime) / (1000 * 60);
   const wpm = Math.round(wordCount / elapsedTimeInMinutes);
   wpmDisplay.textContent = wpm;
+  console.log(wpmDisplay.textContent);
 }
 function calculateCPM() {
   const elapsedTimeInMinutes = (Date.now() - startTime) / (1000 * 60);
@@ -132,5 +133,33 @@ function resetValues() {
   countDownTimer.textContent = 0;
   startTime = null;
   quoteInput.value = "";
+}
+// Function for display modal
+function displayModal() {
+  const modal = document.createElement("div");
+  modal.classList.add("modal");
+  // calculateCPM();
+  // calculateWPM();
+
+  // Content for the modal
+  const modalContent = `
+    <div class="modal-content">
+      <h2>Congratulations!</h2>
+      <p>Your scores:</p>
+      <p>Words Per Minute (WPM): <span>${wpmDisplay.textContent}</span></p>
+      <p>Characters Per Minute (CPM): <span>${cpmDisplay.textContent}</span></p>
+      <p>Mistakes: <span>${mistakeCounter}</span></p>
+      <p>Time: <span>${countDownTimer.textContent} seconds</span></p>
+    </div>
+  `;
+  modal.innerHTML = modalContent;
+  document.body.appendChild(modal);
+
+  // Event listner for modal
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      modal.remove();
+    }
+  });
 }
 randomText();
