@@ -19,9 +19,11 @@
   padding: 20px;
   border-top: 100px;
 }
-
+.landing-page h2 {
+  font-size: 40px;
+}
 .landing-page h1,
-.landing-page h4,
+.landing-page h2,
 .landing-page button {
   margin: 20px 0;
 }
