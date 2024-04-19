@@ -45,7 +45,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #252422;
-  color: black;
+  color: #252422;
 }
 #display-flex {
   display: flex;
@@ -59,7 +59,7 @@ body {
   background: #fffcf2;
   padding: 30px;
   width: 80%;
-  max-width: 90%;
+  /* max-width: 90%; */
   border-radius: 10px;
 }
 .container .info-box {
@@ -178,7 +178,7 @@ body {
 
 /* index.html styling */
 
-@media screen and (min-width: 280px) and (max-width: 575px) {
+@media screen and (min-width: 280px) and (max-width: 374px) {
   .landing-page {
     font-size: 30px;
   }
@@ -187,6 +187,40 @@ body {
   }
   #playButton {
     font-size: 20px;
+  }
+  /* Typing-test.html styling */
+  .container {
+    padding: 15px;
+    width: 280px;
+  }
+  .display-text {
+    font-size: 15px;
+    width: 250px;
+    padding-bottom: 75px;
+  }
+  .score .results {
+    font-size: 15px;
+    justify-content: space-between;
+    display: block;
+    padding-left: 50px;
+  }
+  .score button {
+    font-size: 13.5px;
+    width: 100px;
+    align-self: center;
+    height: 35px;
+  }
+  .count-down {
+    font-size: 3rem;
+  }
+  .score {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .results li {
+    width: 0;
   }
 }
 /* Media Query: tablets + (768+) */
