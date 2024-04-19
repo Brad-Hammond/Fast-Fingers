@@ -222,12 +222,57 @@ body {
   .results li {
     width: 0;
   }
+  /* Modal Styling */
+  .modal {
+    font-size: 12.5px;
+  }
+}
+/* media query for medium size phones */
+
+/* Media Quer: Medium phones + (375px+) */
+
+/* Typing-test.html styling */
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .display-text {
+    font-size: 17.5px;
+  }
+  .count-down {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+  .score .results {
+    font-size: 17.5px;
+    justify-content: space-between;
+    display: block;
+    padding-left: 50px;
+  }
+  .score {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .score button {
+    font-size: 15px;
+    width: 100px;
+    align-self: center;
+    height: 35px;
+  }
+  .container {
+    padding: 15px;
+    width: 280px;
+  }
+  /* Modal Styling */
+  .modal {
+    font-size: 15px;
+  }
 }
 /* Media Query: tablets + (768+) */
 
 /* index.html styling */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .landing-page {
     font-size: 35px;
   }
@@ -236,5 +281,34 @@ body {
   }
   #playButton {
     font-size: 25px;
+  }
+  /* Typing-test.html styling */
+  .count-down {
+    font-size: 3rem;
+    padding-top: 75px;
+  }
+  .display-text {
+    font-size: 17.5px;
+  }
+  .container {
+    width: 100%;
+  }
+  .display-text {
+    width: 100%;
+  }
+  .score .results {
+    font-size: 15.5px;
+    padding-right: 10px;
+  }
+  .score button {
+    font-size: 15px;
+  }
+  /* Modal Styling */
+  .modal {
+    font-size: 20px;
+  }
+  /* Modal Styling */
+  .modal {
+    font-size: 20px;
   }
 }
