@@ -183,3 +183,15 @@ body {
     font-size: 20px;
   }
 }
+/* Media Query: tablets + (768+) */
+@media screen and (min-width: 768px) {
+  .landing-page {
+    font-size: 35px;
+  }
+  .landing-page h2 {
+    font-size: 30px;
+  }
+  #playButton {
+    font-size: 25px;
+  }
+}
