@@ -168,3 +168,18 @@ body {
 .modal-content span {
   font-weight: bold;
 }
+
+/* Media Queries  */
+
+/* Media Query: small phone + (280px+) */
+@media screen and (min-width: 280px) and (max-width: 575px) {
+  .landing-page {
+    font-size: 30px;
+  }
+  .landing-page h2 {
+    font-size: 27.5px;
+  }
+  #playButton {
+    font-size: 20px;
+  }
+}
