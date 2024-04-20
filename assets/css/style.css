@@ -81,6 +81,7 @@ body {
   top: 4rem;
   font-size: 4rem;
   color: #fffcf2;
+  padding-top: 75px;
 }
 /* Display Text */
 .display-text {
@@ -213,24 +214,23 @@ body {
     width: 280px;
   }
   .display-text {
-    font-size: 15px;
+    font-size: 12px;
     width: 250px;
-    padding-bottom: 75px;
   }
   .score .results {
-    font-size: 15px;
+    font-size: 10px;
     justify-content: space-between;
     display: block;
     padding-left: 50px;
   }
   .score button {
-    font-size: 13.5px;
+    font-size: 10px;
     width: 100px;
     align-self: center;
-    height: 35px;
+    height: 20px;
   }
   .count-down {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .score {
     display: flex;
@@ -238,8 +238,8 @@ body {
     gap: 10px;
     align-items: center;
   }
-  .results li {
-    width: 0;
+  #quoteInput {
+    font-size: 10px;
   }
   /* Modal Styling */
   .modal {
@@ -254,14 +254,13 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .display-text {
-    font-size: 17.5px;
+    font-size: 12.5px;
   }
   .count-down {
     font-size: 2.5rem;
-    padding-bottom: 20px;
   }
   .score .results {
-    font-size: 17.5px;
+    font-size: 12.5px;
     justify-content: space-between;
     display: block;
     padding-left: 50px;
@@ -273,14 +272,18 @@ body {
     align-items: center;
   }
   .score button {
-    font-size: 15px;
+    font-size: 10px;
     width: 100px;
     align-self: center;
-    height: 35px;
+    height: 15px;
   }
   .container {
     padding: 15px;
     width: 280px;
+  }
+  #quoteInput {
+    height: 75px;
+    font-size: 12.5px;
   }
   /* Modal Styling */
   .modal {
@@ -304,7 +307,6 @@ body {
   /* Typing-test.html styling */
   .count-down {
     font-size: 3rem;
-    padding-top: 75px;
   }
   .display-text {
     font-size: 17.5px;
@@ -316,10 +318,13 @@ body {
     width: 100%;
   }
   .score .results {
-    font-size: 15.5px;
+    font-size: 15px;
     padding-right: 10px;
   }
   .score button {
+    font-size: 13.5px;
+  }
+  #quoteInput {
     font-size: 15px;
   }
   /* Modal Styling */
