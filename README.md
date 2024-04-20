@@ -6,6 +6,8 @@ Fast Fingers is an online typing speed tester designed to help users assess and 
 
 ### [View Live Project Here](https://brad-hammond.github.io/Fast-Fingers/)
 
+![Website Designs](assets/readmeimages/deviceframesView.jpg)
+
 ## Contents
 
 ## Project Goals and User Stories
