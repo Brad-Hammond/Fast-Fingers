@@ -97,7 +97,7 @@ The how to play button is a modal which once clicked, displays the instructions 
 
 - There is a timer at the top of the screen which starts once the first character is typed, this timer goes on until the quote is correctly typed.
 - When the user gets a letter correct, it is coloured in green - when it is incorrect, it is coloured in red.
-- There are mistake, CPM, and WPM counters along the bottom of the white area which accuratley count each score.
+- There are mistake, CPM, and WPM counters along the bottom of the white area which accuratley counts each score.
 - There is a try again button which refreshes the text-area, all counters and brings forward a new quote.
 
 ![Typing Test Page](assets/readmeimages/typingTestPage.png)
@@ -105,3 +105,9 @@ The how to play button is a modal which once clicked, displays the instructions 
 There is also a results modal which appears once the quote is correctly typed out which displays the scores and time for the user.
 
 ![Results Modal](assets/readmeimages/resultsModal.png)
+
+## Future Features
+
+- In the future, I would like to store users scores and have a leaderboard feature which they could look back at and set new high scores.
+- In the future, I would add different gamemodes such as easy mode or hard mode.
+- In the future, I would add the option to chose the backgrounds when on the typing test page.
