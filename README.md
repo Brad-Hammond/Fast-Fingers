@@ -80,3 +80,15 @@ The below is my mockup wireframe of the home/landing page on mobile, this stayed
 The below is my mockup wireframe of the typying test page for mobile, this also stayed similar to the final product.<br>However, similar to the desktop, the count down timer was moved to the top for better user experience.
 
 ![Mobile Typing-Test Page](assets/readmeimages/TypingTestMobile.png)
+
+## Features
+
+### Index / Landing Page
+
+#### Play / How to play Button
+
+The play button lets the user begin by clicking play!
+The how to play button is a modal which once clicked, displays the instructions on how to play the game.
+
+![Landing Page](assets/readmeimages/landingPageIButtons.png)
+![How to play Modal](assets/readmeimages/howToPlayModal.png)
