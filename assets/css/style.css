@@ -69,7 +69,6 @@ body {
   background: #fffcf2;
   padding: 30px;
   width: 80%;
-  /* max-width: 90%; */
   border-radius: 10px;
 }
 .container .info-box {
@@ -94,7 +93,7 @@ body {
   color: #fffcf2;
   padding-bottom: 50px;
   width: 80%;
-  /* user-select: none; */
+  user-select: none;
 }
 .info-box .score {
   padding: 10px 10px;
