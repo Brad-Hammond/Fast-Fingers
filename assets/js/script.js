@@ -24,6 +24,7 @@ let mistakeCount = document.querySelector(".mistakes span");
 let wpmDisplay = document.querySelector(".wpm span");
 let cpmDisplay = document.querySelector(".cpm span");
 let tryAgainButton = document.querySelector("button");
+let howToPlayModal = document.getElementById("howToPlayButton");
 let startTime;
 let timerInterval;
 let mistakeCounter = 0;
