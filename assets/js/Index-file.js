@@ -18,7 +18,7 @@ function displayHowToPlayModal() {
             <p>Once you start typing, your timer will start.</p>
             <p>Your goal is to type as fast and accuratley as possible.</p>
             <p>Once you've finished typing, your scores will be displayed.</p>
-            <p>Once finished, you can press the try again button to replay with a different quote</p>
+            <p>Once finished, you can press the try again button to play with a different quote</p>
             <p>Good luck and have fun!</p>
         </div>
     `;
@@ -34,5 +34,10 @@ function displayHowToPlayModal() {
     if (event.target === modal) {
       modal.remove();
     }
+  });
+  // Event listener to the play button
+  document.getElementById("playButton").addEventListener("click", () => {
+    // Redirect to the typing test page
+    window.location.href = "typing-test.html";
   });
 }
