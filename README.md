@@ -52,3 +52,31 @@ Fast Fingers is an online typing speed tester designed to help users assess and 
 ### Wireframes
 
 The below images are mock up wireframes that I made before starting this project, they helped me in designing my webpage and stayed relatively true to design.
+
+### Desktop
+
+#### Homepage / Landing Page
+
+The below is my mockup wireframe of the home/landing page on desktop, this stayed true to design and was very helpful when styling and designing this webpage.
+
+![Desktop Homepage](assets/readmeimages/landingPage.png)
+
+#### Typing Test Page
+
+The below is my mockup wireframe of the typying test page for desktop, this stayed close to design.<br>However in the end I opted for the count down timer to be at the top of the screen as this was better user experience due to it being easier for the user to see when playing.
+
+![Desktop Typing-Test Page](assets/readmeimages/TypingTest.png)
+
+### Mobile
+
+#### Homepage / Landing Page
+
+The below is my mockup wireframe of the home/landing page on mobile, this stayed true to design and was very helpful when styling and designing this webpage.
+
+![Mobile Homepage](assets/readmeimages/landingPageMobile.png)
+
+#### Typing Test Page
+
+The below is my mockup wireframe of the typying test page for mobile, this also stayed similar to the final product.<br>However, similar to the desktop, the count down timer was moved to the top for better user experience.
+
+![Mobile Typing-Test Page](assets/readmeimages/TypingTestMobile.png)
