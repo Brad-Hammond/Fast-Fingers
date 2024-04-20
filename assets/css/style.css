@@ -230,7 +230,8 @@ body {
     height: 20px;
   }
   .count-down {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding-top: 0;
   }
   .score {
     display: flex;
@@ -257,7 +258,8 @@ body {
     font-size: 12.5px;
   }
   .count-down {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding-top: 0;
   }
   .score .results {
     font-size: 12.5px;
@@ -292,8 +294,6 @@ body {
 }
 /* Media Query: tablets + (768+) */
 
-/* index.html styling */
-
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .landing-page {
     font-size: 35px;
@@ -307,6 +307,7 @@ body {
   /* Typing-test.html styling */
   .count-down {
     font-size: 3rem;
+    padding-top: 0;
   }
   .display-text {
     font-size: 17.5px;
@@ -334,5 +335,12 @@ body {
   /* Modal Styling */
   .modal {
     font-size: 20px;
+  }
+}
+
+/* Media query 1440px +  */
+@media screen and (min-width: 1440px) and (max-width: 2000px) {
+  .count-down {
+    padding-top: 0;
   }
 }
