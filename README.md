@@ -1,12 +1,16 @@
 # Fast Fingers
 
-Fast Fingers is an online typing speed tester designed to help users assess and improve their typing speed and accuracy. Whether you're a seasoned typist looking to refine your skills or a beginner aiming to boost your productivity, Fast Fingers provides an intuitive platform for honing your typing abilities.
+## My Portfolio 2 Project
 
 ### By Bradley Hammond
 
 ### [View Live Project Here](https://brad-hammond.github.io/Fast-Fingers/)
 
 ![Website Designs](assets/readmeimages/deviceframesView.jpg)
+
+### About Fast Fingers
+
+Fast Fingers is an online typing speed tester designed to help users assess and improve their typing speed and accuracy. Whether you're a seasoned typist looking to refine your skills or a beginner aiming to boost your productivity, Fast Fingers provides an intuitive platform for honing your typing abilities.
 
 ## Contents
 
@@ -42,3 +46,9 @@ Fast Fingers is an online typing speed tester designed to help users assess and 
 | 1         | As a user , <br> I want to be able to try again if I made a mistake<br> so that I can restart and try to improve. <br><br>I know I am done when I have restarted the game                                                |
 | 2         | As a user , <br> I want to be able to view my scores after completing the quote<br> so that I can see if I have improved. <br><br>I know I am done when the scores are shown after completion.                           |
 | 3         | As a user , <br> I want to be able to see what if I have made any mistakes while typing<br> so that I can go back and correct if need be.<br><br>I know I am done when I can see if the quotes letters are red or green. |
+
+## Design
+
+### Wireframes
+
+The below images are mock up wireframes that I made before starting this project, they helped me in designing my webpage and stayed relatively true to design.
