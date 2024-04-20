@@ -1,3 +1,9 @@
+// Event listener to the play button
+document.getElementById("playButton").addEventListener("click", () => {
+  // Redirect to the typing test page
+  window.location.href = "typing-test.html";
+});
+
 // Event listener for how to play button
 document.getElementById("howToPlayButton").addEventListener("click", () => {
   // Call function
@@ -34,10 +40,5 @@ function displayHowToPlayModal() {
     if (event.target === modal) {
       modal.remove();
     }
-  });
-  // Event listener to the play button
-  document.getElementById("playButton").addEventListener("click", () => {
-    // Redirect to the typing test page
-    window.location.href = "typing-test.html";
   });
 }
