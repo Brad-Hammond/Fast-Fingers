@@ -36,6 +36,16 @@
   background-color: #fffcf2;
   transition: transform 0.2s ease;
 }
+/* How to play button styling */
+#howToPlayButton {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  font-size: 17.5px;
+  color: #252422;
+  background-color: #fffcf2;
+  transition: transform 0.2s ease;
+}
 /* Styling for typing-test file */
 /* general styling */
 body {
