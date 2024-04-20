@@ -92,3 +92,16 @@ The how to play button is a modal which once clicked, displays the instructions 
 
 ![Landing Page](assets/readmeimages/landingPageIButtons.png)
 ![How to play Modal](assets/readmeimages/howToPlayModal.png)
+
+### Typing Test Page
+
+- There is a timer at the top of the screen which starts once the first character is typed, this timer goes on until the quote is correctly typed.
+- When the user gets a letter correct, it is coloured in green - when it is incorrect, it is coloured in red.
+- There are mistake, CPM, and WPM counters along the bottom of the white area which accuratley count each score.
+- There is a try again button which refreshes the text-area, all counters and brings forward a new quote.
+
+![Typing Test Page](assets/readmeimages/typingTestPage.png)
+
+There is also a results modal which appears once the quote is correctly typed out which displays the scores and time for the user.
+
+![Results Modal](assets/readmeimages/resultsModal.png)
