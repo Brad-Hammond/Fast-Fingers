@@ -304,7 +304,8 @@ The site was deployed to Github pages. If you have forked/cloned the repository 
 - For inspiration and ideas, credits to [Coding with David](https://www.youtube.com/watch?v=E_tZH9R_zi8&list=LL&index=2&t=5065s&ab_channel=CodingWithDawid)
 - For the fonts used, credits to [Google Fonts](https://fonts.google.com/)
 - HTML, CSS and Javascript code help was taken from w3schools - [W3Schools](https://www.w3schools.com/)
-- Credits to [Device Frames](https://deviceframes.com/)
+- Credits to [Device Frames](https://deviceframes.com/) for the different devices image in the ReadMe
 - Credits to [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI%2B-%2BUK%2B-%2BSearch%2B-%2BBrand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw8pKxBhD_ARIsAPrG45kfZu0iDMkC26LnD1BA9bVqqhFchKG1Ib_SZOD-r7-C87RpU2b6i1EaAsbWEALw_wcB&nab=2&utm_referrer=https%3A%2F%2Fwww.google.com%2F) for the learning matertial
 - Credits to [Coolors](https://coolors.co/) for the colour palet used
 - Credits to [Wireframe](https://wireframe.cc/) for the mock wireframes images
+- Credits to my mentor for pushing and helping me through this project.
