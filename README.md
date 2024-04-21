@@ -259,7 +259,7 @@ Please see below snippet of the code applied:
 
 #### Display Text
 
-The display text that the user has to type overflows onto the next line mid word - I am unable to fix this.
+The display text that the user has to type overflows onto the next line midword - I am unable to fix this.
 
 - Please see below snippet of this:
 
