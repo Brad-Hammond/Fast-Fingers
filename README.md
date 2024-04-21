@@ -166,3 +166,47 @@ No errors were found when passing through the official Jshint validator - this i
 | 1         | Test Pass | As a user , <br> I want to be able to try again if I made a mistake<br> so that I can restart and try to improve. <br><br>I know I am done when I have restarted the game. <br><br>Evidence:<br>The user can press the try again button to restart the game.<br> ![Index Landing Page](assets/readmeimages/cpmWpmCounters.png)                                                                                                  |
 | 2         | Test Pass | As a user , <br> I want to be able to view my scores after completing the quote<br> so that I can see if I have improved. <br><br>I know I am done when the scores are shown after completion. <br><br>Evidence:<br>Once the user has completed typing out the quote successfully, the results modal will appear with their scores.<br> ![WPM and CPM Counters](assets/readmeimages/resultsModal.png)                           |
 | 3         | Test Pass | As a user , <br> I want to be able to see if I have made any mistakes while typing<br> so that I can go back and correct if need be.<br><br>I know I am done when I can see if the quotes letters are red or green. <br><br>Evidence:<br>If a mistake is made whilst typing, the user can see this as the characters mistyped will appear red in the quote.<br> ![WPM and CPM Counters](assets/readmeimages/typingTestPage.png) |
+
+## Testing
+
+### Accessibility Testing
+
+To test the accessibility, I used lighthouse - please see below my scores:
+
+#### Desktop
+
+- Homepage:
+
+![Desktop Index Lighthouse Report](assets/readmeimages/desktopLandingPage-Lighthouse.png)
+
+- Typing-Test Page:
+
+![Desktop Typing Test Page](assets/readmeimages/desktopTypingTestPage-Lighthouse.png)
+
+#### Mobile
+
+- Homepage:
+
+![Mobile Index Lighthouse Report](assets/readmeimages/mobileLandingPage-Lighthouse.png)
+
+- Typing-Test Page:
+
+![Mobile Typing Test Page](assets/readmeimages/mobileTypingTestPage-Lighthouse.png)
+
+### Manual Testing
+
+- I have tested that this website works in different web browsers.
+- I have tested that this website works on different devices such as mobile, tablet and laptop.
+- I have tested that the user can interact fully with the website and all links and code works as intended.
+- I have tested that all text and fonts are readable and easy to understand.
+- I have tested that the results modal appears only once the text is typed correctly and that it has the correct scores shown.
+- I have tested that the how to play modal appears with the instructiosn only once the how to play button is pressed.
+- I have tested that all text and fonts are readable and easy to understand.
+
+### Different Devices
+
+### Bugs
+
+#### Mistake Counter Bug
+
+Back spaces were being included in the mistake counter, this was causing the counter to be inaccurate -
