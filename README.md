@@ -119,3 +119,17 @@ There is also a results modal which appears once the quote is correctly typed ou
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+## Validator Testing
+
+### HTML
+
+No errors were returned when passing through the official W3C validator
+
+- https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrad-hammond.github.io%2FFast-Fingers%2F
+
+### CSS
+
+No errors were found when passing through the official Jigsaw validator
+
+-
