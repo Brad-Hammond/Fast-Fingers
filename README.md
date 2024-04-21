@@ -100,7 +100,7 @@ The below is my mockup wireframe of the typying test page for mobile, this also 
 
 ![Typing Test Page](assets/readmeimages/typingTestPage.png)
 
-There is also a results modal which appears once the quote is correctly typed out which displays the scores and time for the user.
+- There is also a results modal which appears once the quote is correctly typed out which displays the scores and time for the user.
 
 ![Results Modal](assets/readmeimages/resultsModal.png)
 
