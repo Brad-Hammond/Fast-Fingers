@@ -6,7 +6,7 @@
 
 ### [View Live Project Here](https://brad-hammond.github.io/Fast-Fingers/)
 
-![Website Designs](assets/readmeimages/deviceframesView.jpg)
+![Website Designs](assets/readmeimages/deviceframes-2.0.jpg)
 
 ### About Fast Fingers
 
