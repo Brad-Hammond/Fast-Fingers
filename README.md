@@ -18,7 +18,7 @@ Fast Fingers is an online typing speed tester designed to help users assess and 
 
 - The goal of this website is to create a fun and effective way for users to test their typing speed.
 
-- It has been designed for people who want to keep coming back to improve their score and compete to get the highest score.
+- It has been designed for people who want to keep coming back to improve their score and skill overtime.
 
 ### User Stories
 
@@ -85,8 +85,7 @@ The below is my mockup wireframe of the typying test page for mobile, this also 
 
 #### Play / How to play Button
 
-The play button lets the user begin by clicking play!
-The how to play button is a modal which once clicked, displays the instructions on how to play the game.
+The play button lets the user begin by clicking play! Once clicked it brings the user to the typing-test page.<br>The how to play button is a modal which once clicked, displays the instructions on how to play the game.
 
 ![Landing Page](assets/readmeimages/landingPageIButtons.png)
 ![How to play Modal](assets/readmeimages/howToPlayModal.png)
