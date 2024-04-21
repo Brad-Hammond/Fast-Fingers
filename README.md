@@ -61,7 +61,7 @@ The below is my mockup wireframe of the home/landing page on desktop, this staye
 
 #### Typing Test Page
 
-The below is my mockup wireframe of the typying test page for desktop, this stayed close to design.<br>However in the end I opted for the count down timer to be at the top of the screen as this was better user experience due to it being easier for the user to see when playing.
+The below is my mockup wireframe of the typing test page for desktop, this stayed close to design.<br>However in the end I opted for the count down timer to be at the top of the screen as this was better user experience due to it being easier for the user to see when playing.
 
 ![Desktop Typing-Test Page](assets/readmeimages/TypingTest.png)
 
@@ -130,7 +130,7 @@ No errors were returned when passing through the official W3C validator
 
 No errors were found when passing through the official Jigsaw validator
 
-- http://jigsaw.w3.org/css-validator/validator$link
+- http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fbrad-hammond.github.io%2FFast-Fingers%2F&usermedium=all&vextwarning=&warning=1
 
 ### Javascript
 
@@ -212,10 +212,10 @@ To test the accessibility, I used lighthouse - please see below my scores:
 
 #### Mobile
 
-| IOS 17 - Iphone                                                           | IOS 17 - Tablet                                                           | Android 14.0                                                                 |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ![Iphone Landing Page](assets/readmeimages/landingPage-Iphone.jpg)        | ![Tablet Landing Page](assets/readmeimages/landingPage-Tablet.png)        | ![Android Landing Page](assets/readmeimages/landingPage-Android.jpg)         |
-| ![Iphone Typing Test Page](assets/readmeimages/typingTestPage-Iphone.jpg) | ![Tablet Typing Test Page](assets/readmeimages/typingTestPage-Tablet.png) | ![Android Typibng Test Page](assets/readmeimages/typingTestPage-Android.jpg) |
+| IOS 17 - Iphone                                                           | IOS 17 - Tablet                                                           | Android 14.0                                                                |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| ![Iphone Landing Page](assets/readmeimages/landingPage-Iphone.jpg)        | ![Tablet Landing Page](assets/readmeimages/landingPage-Tablet.png)        | ![Android Landing Page](assets/readmeimages/landingPage-Android.jpg)        |
+| ![Iphone Typing Test Page](assets/readmeimages/typingTestPage-Iphone.jpg) | ![Tablet Typing Test Page](assets/readmeimages/typingTestPage-Tablet.png) | ![Android Typing Test Page](assets/readmeimages/typingTestPage-Android.jpg) |
 
 ### Bugs
 
