@@ -209,4 +209,20 @@ To test the accessibility, I used lighthouse - please see below my scores:
 
 #### Mistake Counter Bug
 
-Back spaces were being included in the mistake counter, this was causing the counter to be inaccurate -
+Back spaces were being included in the mistake counter, this was causing the counter to be inaccurate.<br>
+The below code was used to fix this issue:
+
+```Javescript
+if (event.inputType !== "deleteContentBackward" && !correct) {
+    mistakeCounter++;
+    mistakeCount.textContent = mistakeCounter;
+  }
+```
+
+#### Results Modal Bug
+
+The CPM and WPM counters were not showing the correct scores on the result modal.<br>
+To fix this, I used console.log to check if the values were pulling correctly in the console.<br>
+Once confirmed that it was, I found that it was a calculateCPM function was being called twice, removing this fixed the issue.
+
+#### Countdown Timer Bug
