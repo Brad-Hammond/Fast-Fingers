@@ -153,10 +153,10 @@ body {
 }
 /* Correct / Incorrect quote colors */
 .correct {
-  color: #3f8f29;
+  color: #14c914;
 }
 .incorrect {
-  color: #de1a24;
+  color: #ff474d;
 }
 /* Modal Styling */
 .modal {
