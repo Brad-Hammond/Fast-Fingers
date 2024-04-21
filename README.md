@@ -111,3 +111,11 @@ There is also a results modal which appears once the quote is correctly typed ou
 - In the future, I would like to store users scores and have a leaderboard feature which they could look back at and set new high scores.
 - In the future, I would add different gamemodes such as easy mode or hard mode.
 - In the future, I would add the option to chose the backgrounds when on the typing test page.
+
+## Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
