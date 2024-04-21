@@ -55,7 +55,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #252422;
-  color: #252422;
 }
 #display-flex {
   display: flex;
