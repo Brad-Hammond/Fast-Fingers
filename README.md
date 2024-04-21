@@ -205,6 +205,20 @@ To test the accessibility, I used lighthouse - please see below my scores:
 
 ### Different Devices
 
+#### Desktop
+
+| Safari 17.4                                                                       | Firefox 125.0.1                                                                     | Chrome 124.0.6367.60                                                         |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![Desktop Landing Page Safari](assets/readmeimages/landingPage-Safari.jpg)        | ![Desktop Landing Page Firefox](assets/readmeimages/landingPage-FireFox.png)        | ![Desktop Landing Page Chrome](assets/readmeimages/landingPage-Chrome.png)   |
+| ![Desktop Typing Test Page Safari](assets/readmeimages/typingTestPage-Safari.jpg) | ![Desktop Typing Test Page Firefox](assets/readmeimages/typingTestPage-FireFox.png) | ![Desktop Typing Test Chrome](assets/readmeimages/typingTestPage-Chrome.png) |
+
+#### Mobile
+
+| IOS 17 - Iphone                                                                   | IOS 17 - Tablet                                                                     | Android 14.0                                                                 |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![Desktop Landing Page Safari](assets/readmeimages/landingPage-Safari.jpg)        | ![Desktop Landing Page Firefox](assets/readmeimages/landingPage-FireFox.png)        | ![Desktop Landing Page Chrome](assets/readmeimages/landingPage-Chrome.png)   |
+| ![Desktop Typing Test Page Safari](assets/readmeimages/typingTestPage-Safari.jpg) | ![Desktop Typing Test Page Firefox](assets/readmeimages/typingTestPage-FireFox.png) | ![Desktop Typing Test Chrome](assets/readmeimages/typingTestPage-Chrome.png) |
+
 ### Bugs
 
 #### Mistake Counter Bug
@@ -212,7 +226,7 @@ To test the accessibility, I used lighthouse - please see below my scores:
 Back spaces were being included in the mistake counter, this was causing the counter to be inaccurate.<br>
 The below code was used to fix this issue:
 
-```Javescript
+```JS
 if (event.inputType !== "deleteContentBackward" && !correct) {
     mistakeCounter++;
     mistakeCount.textContent = mistakeCounter;
@@ -226,3 +240,61 @@ To fix this, I used console.log to check if the values were pulling correctly in
 Once confirmed that it was, I found that it was a calculateCPM function was being called twice, removing this fixed the issue.
 
 #### Countdown Timer Bug
+
+On smaller screens, the count down timer was appearing over the quote text.<br>
+To fix this, I added media quries for smaller screens and amended the sizing of the quote text and timer.<br>
+Please see below snippet of the code applied:
+
+```CSS
+@media screen and (min-width: 280px) and (max-width: 374px) {
+.display-text {
+    font-size: 12px;
+    width: 250px;
+  }
+  .count-down {
+    font-size: 2rem;
+  }
+}
+```
+
+### Cloning & Forking
+
+#### Fork
+
+1. On GitHub.com, navigate to the [Brad-Hammond/Fast-Fingers](https://github.com/Brad-Hammond/Fast-Fingers) repository.
+2. In the top-right corner of the page, click Fork.
+3. By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.
+4. Add a description to your fork.
+5. Click Create fork.
+
+#### Clone
+
+1. Above the list of files click the button that says 'Code'.
+2. Copy the URL for the repository.
+3. Open Terminal. Change the directory to the location where you want the cloned directory.
+4. Type git clone, and then paste the URL
+5. Press Enter.
+
+### Local Deployment
+
+1. Sign up to [Gitpod](https://gitpod.io/)
+2. Download the Gitpod browser extension.
+3. On GitHub.com, navigate to the [Brad-Hammond/Fast-Fingers](https://github.com/Brad-Hammond/Fast-Fingers) repository.
+4. Above the list of files click the button that says 'Gitpod'.
+
+### Remote Deployment
+
+The site was deployed to Github pages. If you have forked/cloned the repository the steps to deploy are:
+
+1.  On GitHub.com, navigate to your repository.
+2.  Navigate to the settings tab.
+3.  Click on the tab called 'pages' on the left hand side.
+4.  From the source drop down list under the heading Build and deployment, select main.
+5.  The page will hten provide the link to the website.
+
+## Credits
+
+- For inspiration and ideas, credits to [Coding with David](https://www.youtube.com/watch?v=E_tZH9R_zi8&list=LL&index=2&t=5065s&ab_channel=CodingWithDawid)
+- For the fonts used, credits to [Google Fonts](https://fonts.google.com/)
+- HTML, CSS and Javascript code help was taken from w3schools - [W3Schools](https://www.w3schools.com/)
+- For helping push me towards my goal, credit to my mentor Daniel
