@@ -255,6 +255,16 @@ Please see below snippet of the code applied:
 }
 ```
 
+### Known Bugs
+
+#### Display Text
+
+The display text that the user has to type overflows onto the next line mid word - I am unable to fix this.
+
+- Please see below snippet of this:
+
+![Enjambment Bug](assets/readmeimages/enjambmentImage.png)
+
 ### Cloning & Forking
 
 #### Fork
