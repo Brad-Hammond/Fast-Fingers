@@ -12,8 +12,6 @@
 
 Fast Fingers is an online typing speed tester designed to help users assess and improve their typing speed and accuracy. Whether you're a seasoned typist looking to refine your skills or a beginner aiming to boost your productivity, Fast Fingers provides an intuitive platform for honing your typing abilities.
 
-## Contents
-
 ## Project Goals and User Stories
 
 ### Project Goals
@@ -214,10 +212,10 @@ To test the accessibility, I used lighthouse - please see below my scores:
 
 #### Mobile
 
-| IOS 17 - Iphone                                                                   | IOS 17 - Tablet                                                                     | Android 14.0                                                                 |
-| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ![Desktop Landing Page Safari](assets/readmeimages/landingPage-Safari.jpg)        | ![Desktop Landing Page Firefox](assets/readmeimages/landingPage-FireFox.png)        | ![Desktop Landing Page Chrome](assets/readmeimages/landingPage-Chrome.png)   |
-| ![Desktop Typing Test Page Safari](assets/readmeimages/typingTestPage-Safari.jpg) | ![Desktop Typing Test Page Firefox](assets/readmeimages/typingTestPage-FireFox.png) | ![Desktop Typing Test Chrome](assets/readmeimages/typingTestPage-Chrome.png) |
+| IOS 17 - Iphone                                                           | IOS 17 - Tablet                                                           | Android 14.0                                                                 |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![Iphone Landing Page](assets/readmeimages/landingPage-Iphone.jpg)        | ![Tablet Landing Page](assets/readmeimages/landingPage-Tablet.png)        | ![Android Landing Page](assets/readmeimages/landingPage-Android.jpg)         |
+| ![Iphone Typing Test Page](assets/readmeimages/typingTestPage-Iphone.jpg) | ![Tablet Typing Test Page](assets/readmeimages/typingTestPage-Tablet.png) | ![Android Typibng Test Page](assets/readmeimages/typingTestPage-Android.jpg) |
 
 ### Bugs
 
