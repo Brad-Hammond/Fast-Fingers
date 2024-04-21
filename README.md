@@ -85,7 +85,8 @@ The below is my mockup wireframe of the typying test page for mobile, this also 
 
 #### Play / How to play Button
 
-The play button lets the user begin by clicking play! Once clicked it brings the user to the typing-test page.<br>The how to play button is a modal which once clicked, displays the instructions on how to play the game.
+- The play button lets the user begin by clicking play! Once clicked it brings the user to the typing-test page.
+- The how to play button is a modal which once clicked, displays the instructions on how to play the game.
 
 ![Landing Page](assets/readmeimages/landingPageIButtons.png)
 ![How to play Modal](assets/readmeimages/howToPlayModal.png)
