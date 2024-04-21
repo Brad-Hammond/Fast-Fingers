@@ -132,4 +132,20 @@ No errors were returned when passing through the official W3C validator
 
 No errors were found when passing through the official Jigsaw validator
 
--
+- https://jigsaw.w3.org/css-validator/validator
+
+### Javascript
+
+No errors were found when passing through the official Jshint validator - this is for both JS files
+
+- Please see below screen shot of the results:
+
+![JShint Validator Results](assets/readmeimages/Jshint-Validator.png)
+
+### User Stories Testing
+
+#### First Time User
+
+| Story No. | Result    | Story/ Evidence                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| --------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1         | Test Pass | As a first time user , <br> I want to be able to know how to play the game <br> so that I can enjoy the game. <br><br>I know I am done when there are clear instructions shown to the user. <br><br>Evidence:<br>The index page has clear how to play button which allows the user to press and see the instructions on how to play the game.<br> ![Index Landing Page](assets/readmeimages/landingPageIButtons.png)<br>![How to play Modal](assets/readmeimages/howToPlayModal.png) |
